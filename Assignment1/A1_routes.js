@@ -8,7 +8,7 @@ const requestHandler = (req, res) => {
         res.write('<body><h1>Welcome to my homepage</h1></body>')
         res.write('<body><form action="/create-user" method="POST"><input type="text" name="username"><button type="submit">Send</button></form></body>');
         res.write('<html>');
-        return res.end();
+        res.end();
     }
     if (url === '/create-user' && method === 'POST') {
         const body = [];
@@ -23,7 +23,7 @@ const requestHandler = (req, res) => {
     
             res.statusCode = 302;
             res.setHeader('Location', '/users');
-            return res.end();
+            res.end();
         });
     }
     if (url === '/users') {
@@ -35,7 +35,7 @@ const requestHandler = (req, res) => {
         res.write('<li>User3</li>');
         res.write('<li>User4</li>');
         res.write('</ul>');
-        return res.end();
+        res.end();
     }
 };
 
