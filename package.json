@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "routes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "start-server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TristanR99/nodejs.git"
+  },
+  "author": "Tristan Rebello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TristanR99/nodejs/issues"
+  },
+  "homepage": "https://github.com/TristanR99/nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
