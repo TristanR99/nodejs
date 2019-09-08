@@ -1,4 +1,4 @@
-# Assignment 1 - Express.js and Nodemon
+# Assignment 2 - Express.js and Nodemon
 
 ## In this assignment I will:
 
