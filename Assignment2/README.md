@@ -1,6 +1,14 @@
 # Assignment 1 - Express.js and Nodemon
-## This assignment showcases using 3rd party dependencies such as express and nodemon.
-In this assignment I will:
+
+## In this assignment I will:
+
+### 1. **Create an npm project with Express.js and nodemon**
+
+### 2. **Create an Express.js app that funnels a response through 2 middleware functions. Each function will log a test to the console. A response is eventually returned**
+
+### 3. **In the same app, handle two requests to the "/" and "/users" page. Each request has its own function and will return some text as a response**
+
+
 
 
 
