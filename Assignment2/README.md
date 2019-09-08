@@ -8,6 +8,8 @@
 
 ### 3. **In the same app, handle two requests to the "/" and "/users" routes. Each route has its own function and will return some text as a response**
 
+* By default, Step 3 is set to run on execution. To run step 2, delete the comments *
+
 
 
 
